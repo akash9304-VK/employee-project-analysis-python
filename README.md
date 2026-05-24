@@ -14,10 +14,10 @@ The project focuses on:
 ---
 
 ## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Jupyter Notebook
+- `Python`
+- `Pandas`
+- `NumPy`
+- `Jupyter Notebook`
 
 ---
 
@@ -49,11 +49,45 @@ Calculated total project costs handled by employees.
 
 ---
 
+# Key Insights
+
+- Employees with completed projects received performance-based bonuses.
+- Failed projects affected employee designation levels.
+- Senior employees handled higher overall project costs.
+- Data aggregation helped evaluate employee contribution across projects.
+- Missing project costs were successfully handled using running averages.
+
+---
+
+# How to Run
+
+1. Clone this repository
+
+2. Install required libraries
+
+```bash
+pip install pandas numpy jupyter
+```
+
+3. Open the notebook
+
+```bash
+jupyter notebook
+```
+
+4. Run all cells inside:
+
+```bash
+Employee_Project_Analysis.ipynb
+```
+
+---
+
 ## Files Included
-- Employee_Project_Analysis.ipynb
-- employee.csv
-- project.csv
-- seniority.csv
+- `Employee_Project_Analysis.ipynb`
+- `employee.csv`
+- `project.csv`
+- `seniority.csv`
 
 ---
 
